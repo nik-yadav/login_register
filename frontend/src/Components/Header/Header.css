@@ -1,0 +1,42 @@
+.wrap{
+    width: 100%;
+    padding: 1rem;
+    height: 7rem;
+    position: relative;
+    background-color: rgba(2,2,2,0.9);
+    top: 0%;
+    left: 0;
+
+    display: flex;
+    align-items: center;
+    z-index: 10;
+}
+
+.wrap-left{
+    width: 40%;
+    padding: 20px;
+    margin-left: 5rem;
+}
+
+.wrap-left img{
+    width: 70%;
+    height: 4rem;
+}
+.wrap-right{
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    margin-left: 20rem;
+    margin-right: 15rem;
+}
+
+.wrap-right a {
+    color: white;
+    text-decoration: none;
+    font-size: 26px;
+}
+
+.wrap-right a:hover {
+    color: #FFD700;
+}

@@ -1,0 +1,37 @@
+.box-control{
+    width: 60%;
+    background-color: rgb(148, 148, 148);
+    margin: 5rem 15rem;
+}
+
+.heading{
+    background-color: rgb(75,75,75);
+    font-size: 24px;
+    padding: 1.2rem;
+}
+
+.loginform{
+    font-size: 20px;
+    padding: 2.5rem;
+}
+.email, .password{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+
+.email input, .password input{
+    border-radius: 6px;
+    border: none;
+}
+
+.loginform button{
+    font-size: 17px;
+    color: white;
+    background-color: rgb(10,10,10);
+    padding: 0.4rem;
+    margin-left: 12rem;
+    margin-top: 2%;
+    border-radius: 8px;
+}
